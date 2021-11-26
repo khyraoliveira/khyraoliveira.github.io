@@ -1,18 +1,59 @@
-a {
-  color: black;  
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
 }
+/* ---------- RESET STYLES -------- */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  background-color: rgb(255,228,225);
+}
+
+/* --------- BODY STYLE ---------- */
+
+header {
+  background-image: linear-gradient(270deg, #9b1a13, #CC463B);
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+header a {
+  color: rgb(255,228,225);
+  text-decoration: none;
+  padding: 65px;
+}
+
+/* ---------- até aqui HEADER --------- */
+
+main {
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#descricao-pessoal {
+  text-align: justify;
+}
+
+nav {
+  margin-top: 15px;
 }
 
 #meu-nome {
   font-family: 'Courier New', Courier, monospace;
-}
-
-div {
-  background-color: rgb(255,228,225);
-  text-align: center;
 }
 
 li {
@@ -25,4 +66,20 @@ li {
 
 .pessoais {
   font-size: 20px;
+}
+
+h4 {
+  position: sticky;
+  top: 0;
+  left: 20px;
+}
+
+/* --------- COMEÇA O FOOTER --------- */
+
+footer {
+  background-image: linear-gradient(270deg, #9b1a13, #CC463B);
+  padding: 15px;
+  margin-top: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(255,228,225);
 }
